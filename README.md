@@ -8,7 +8,7 @@
 
 <div align="center">
 <h4>
-  📃 <a href="https://arxiv.org/abs/2508.14706" target="_blank">Paper</a> ｜ 📚 <a href="FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT" target="_blank">TCM Pre-training Dataset</a> | 📚 <a href="FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT" target="_blank">TCM Instruction Data</a>
+  📃 <a href="https://arxiv.org/abs/2508.14706" target="_blank">Paper</a> ｜ 📚 <a href="FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT" target="_blank">TCM Pre-training Dataset</a> | 📚 <a href="FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT" target="_blank">TCM Instruction Data</a> | 📚 <a href="FreedomIntelligence/TCM-Text-Exams" target="_blank">TCM Text Benchmark</a>
 </h4>
   <h4>
   🤗 <a href="https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni" target="_blank">ShizhenGPT-7B</a> | 🤗 <a href="https://huggingface.co/FreedomIntelligence/ShizhenGPT-32B-VL" target="_blank">ShizhenGPT-32B</a>
@@ -211,6 +211,18 @@ print(generate('请回答这个语音问题', signals=['path_to_audio']))
 
 ## 🧐 Evaluation
 
+<details>
+<summary><h4>Text Benchmark</h4></summary>
+The text benchmark is composed of five sections, each compiled from different national-level TCM examinations.
+
+|                                      | Samples                       |
+| ------------------------------------ | ------------------------------ |
+| 2024 TCM Pharmacist (2024年中医药剂师考试)   | 480 |
+| 2024 TCM Physician (2024年中医职业医师资格考试) | 184 |
+| 2024 TCM Assistant Physician (2024年中医助理职业医师资格考试) | 138|
+| 2024 TCM Graduate Entrance Examination (2024年中医综合考验真题) | 147 |
+| 2025 TCM Graduate Entrance Examination (2025年中医综合考验真题) | 139 |
+</details>
 
 
 ## 📖 Citation
