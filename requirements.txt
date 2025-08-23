@@ -1,0 +1,6 @@
+transformers==4.51.0
+vllm==0.6.4
+qwen_vl_utils
+gradio
+librosa
+soundfile
