@@ -8,7 +8,7 @@
 
 <div align="center">
 <h4>
-  📃 <a href="https://arxiv.org/abs/2508.14706" target="_blank">Paper</a> ｜ 📚 <a href="FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT" target="_blank">TCM Pre-training Dataset</a> | 📚 <a href="FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT" target="_blank">TCM Instruction Data</a> | 📚 <a href="FreedomIntelligence/TCM-Text-Exams" target="_blank">TCM Text Benchmark</a>
+  📃 <a href="https://arxiv.org/abs/2508.14706" target="_blank">Paper</a> ｜ 📚 <a href="https://huggingface.co/datasets/FreedomIntelligence/TCM-Pretrain-Data-ShizhenGPT" target="_blank">TCM Pre-training Dataset</a> | 📚 <a href="https://huggingface.co/datasets/FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT" target="_blank">TCM Instruction Data</a> | 📚 <a href="https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams" target="_blank">TCM Text Benchmark</a>
 </h4>
   <h4>
   🤗 <a href="https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni" target="_blank">ShizhenGPT-7B</a> | 🤗 <a href="https://huggingface.co/FreedomIntelligence/ShizhenGPT-32B-VL" target="_blank">ShizhenGPT-32B</a>
@@ -64,7 +64,7 @@ python demo/app_shizhengpt.py --model_path FreedomIntelligence/ShizhenGPT-7B-Omn
 
 </details>
 
-<details>
+<details open>
 <summary><h4>B. Text-based Inference</h4></summary>
 
 ```python
@@ -85,7 +85,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 </details>
 
 
-<details>
+<details open>
 
 <summary><h4>C. Image-Text-to-Text</h4></summary>
 
@@ -136,7 +136,7 @@ print(output_text)
 
 </details>
 
-<details>
+<details open>
 
 <summary><h4>D. Signal-Image-Text-to-Text</h4></summary>
 
