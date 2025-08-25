@@ -220,8 +220,8 @@ The text benchmark is composed of five sections, each compiled from different na
 | 2024 TCM Pharmacist (2024年中医药剂师考试)   | 480 |
 | 2024 TCM Physician (2024年中医职业医师资格考试) | 184 |
 | 2024 TCM Assistant Physician (2024年中医助理职业医师资格考试) | 138|
-| 2024 TCM Graduate Entrance Examination (2024年中医综合考验真题) | 147 |
-| 2025 TCM Graduate Entrance Examination (2025年中医综合考验真题) | 139 |
+| 2024 TCM Graduate Entrance Examination (2024年中医综合考研真题) | 147 |
+| 2025 TCM Graduate Entrance Examination (2025年中医综合考研真题) | 139 |
 </details>
 
 
